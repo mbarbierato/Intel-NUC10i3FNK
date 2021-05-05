@@ -1,0 +1,1 @@
+# Intel-NUC10i3FNK
