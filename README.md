@@ -18,9 +18,9 @@ EFI for Intel NUC10i3/i5/i7 FNK/FNH with OpenCore bootloader
 | iGPU             | Intel® UHD630                          |
 | Lan              | Intel I219-V                           |
 | Audio            | Realtek ALC256                         |
-| Ram              | 8  Gb ddr4 2400 Mhz                    |
+| Ram              | 8  GB DDR4 2400 Mhz                    |
 | Wifi + Bluetooth | Intel® Wireless-AX201 + Bluetooth      |
-| Nvme             | Kingston SA400 120Gb.                  |
+| Nvme             | Kingston SA400 120GB                   |
 | Card Reader.     | SD Card Reader                         |
 | SmBios           | MacMini8,1                             |
 | BootLoader       | OpenCore                               |
@@ -37,7 +37,8 @@ EFI for Intel NUC10i3/i5/i7 FNK/FNH with OpenCore bootloader
 
 ### What works and What doesn't or WIP:
 
-- [x] Intel Intel® UHD 630 iGPU HDMI/DP Output
+- [x] Intel® UHD 630 iGPU HDMI/DP Output
+- [x] Intel® UHD 630 iGPU - H264 & HEVC
 - [x] ALC256 Internal Speakers
 - [x] ALC256 Internal Mic
 - [x] ALC256 Combojack Headphone
@@ -45,11 +46,16 @@ EFI for Intel NUC10i3/i5/i7 FNK/FNH with OpenCore bootloader
 - [x] ALC256 HDMI/DP Audio Output
 - [x] All USB Ports 
 - [x] SpeedStep / Sleep / Wake
-- [x] Intel I219-V10
+- [x] Intel Lan I219-V10
 - [x] Thunderbolt 3 port
 - [x] AX 201 Wireless + Bluetooth
 - [x] microSDXC Card Reader
+- [x] All Sensors (CPU, NVME, SATA, FAN)
+- [x] CONTROLLER NVME PciE Gen3x4
+- [x] HID Key PWRB & SLPB 
 - [x] NVRAM
+- [x] Windows 10 boot from OpenCore
+
 
 ### BIOS Settings:
 To start, choose "Load Defaults" (choose from the menu or press F9 in the BIOS setup).
