@@ -6,7 +6,7 @@
 
 # Intel NUC10i3FNK Hackintosh
 
-EFI for Intel NUC10i3FNK with OpenCore bootloader
+EFI for Intel NUC10i3/i5/i7 FNK/FNH with OpenCore bootloader
 
 ![descrizione](./Screenshot/pc.png)
 
