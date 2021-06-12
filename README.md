@@ -78,6 +78,7 @@ Then change:
 
 - Usb port mapping performed
 - Disabled unused device
+- If have a FNH version, the device path of SD Card is PciRoot(0x0)/Pci(0x1D,0x5)/Pci(0x0,0x0) use [config_fnh.plist](./EFI/config_fnh.plist)
 
 ## CFG Unlock 
 
