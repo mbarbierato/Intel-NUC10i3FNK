@@ -25,6 +25,7 @@ EFI for Intel NUC10i3FNK with OpenCore bootloader
 | SmBios           | MacMini8,1                             |
 | BootLoader       | OpenCore                               |
 
+![info](./Screenshot/infomonterey.png)
 ![info](./Screenshot/info.png)
 
 ## Peripherals
