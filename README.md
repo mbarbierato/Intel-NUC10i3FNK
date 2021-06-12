@@ -52,6 +52,7 @@ EFI for Intel NUC10i3/i5/i7 FNK/FNH with OpenCore bootloader
 - [x] microSDXC Card Reader
 - [x] All Sensors (CPU, NVME, SATA, FAN)
 - [x] CONTROLLER NVME PciE Gen3x4
+- [x] CONTROLLER SATA III (FNH Model)
 - [x] HID Key PWRB & SLPB 
 - [x] NVRAM
 - [x] Windows 10 boot from OpenCore
