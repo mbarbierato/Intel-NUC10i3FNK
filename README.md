@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/Facebook-HackintoshLifeIT-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/hackintoshlife/)
 [![](https://img.shields.io/badge/Instagram-HackintoshLifeIT-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshlife.it_official/)
 
-# Intel NUC8i3BEH Hackintosh
+# Intel NUC10i3FNK Hackintosh
 
-EFI for Intel NUC8i3BEH with OpenCore bootloader
+EFI for Intel NUC10i3FNK with OpenCore bootloader
 
 ![descrizione](./Screenshot/pc.png)
 
@@ -141,10 +141,11 @@ See [ioreg](./macmini.ioreg) for more clarification
 
 ## Credits
 
-- [Apple](https://apple.com) for macOS;
+- [Apple](https://apple.com) for macOS.
+- Intel for this mini pc.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
 - [Dortania](https://github.com/dortania) For great and detailed guides.
-- [Osy](https://github.com/osy) For Thunderbolt Patcher
+- [Lorys89](https://github.com/Lorys89) For continuos support, patches and sleepless nights.
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Support group for installation and post installation.
 
 ### If you need help please contact us on [Telegram](https://t.me/HackintoshLife_it)
