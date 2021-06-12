@@ -37,9 +37,12 @@ EFI for Intel NUC10i3/i5/i7 FNK/FNH with OpenCore bootloader
 
 ### What works and What doesn't or WIP:
 
-- [x] Intel Intel® UHD 630 iGPU HDMI Output
+- [x] Intel Intel® UHD 630 iGPU HDMI/DP Output
 - [x] ALC256 Internal Speakers
-- [x] ALC256 HDMI Audio Output
+- [x] ALC256 Internal Mic
+- [x] ALC256 Combojack Headphone
+- [ ] ALC256 Combojack Mic
+- [x] ALC256 HDMI/DP Audio Output
 - [x] All USB Ports 
 - [x] SpeedStep / Sleep / Wake
 - [x] Intel I219-V10
@@ -77,7 +80,6 @@ Then change:
 ### Special Config:
 
 - Usb port mapping performed
-- Disabled unused device
 - If have a FNH version, the device path of SD Card is PciRoot(0x0)/Pci(0x1D,0x5)/Pci(0x0,0x0) use [config_fnh.plist](./EFI/config_fnh.plist)
 
 ## CFG Unlock 
