@@ -6,7 +6,7 @@
 
 # Intel NUC8i3BEH Hackintosh
 
-EFI for Intel NUC8i3BEH with OpenCore 0.6.9 bootloader
+EFI for Intel NUC8i3BEH with OpenCore bootloader
 
 ![descrizione](./Screenshot/pc.png)
 
@@ -77,6 +77,62 @@ Then change:
 
 - Usb port mapping performed
 - Disabled unused device
+
+## CFG Unlock 
+
+N.B. this procedure is very risky.
+Any responsibility for this function is discharged to those who perform it.
+Be very careful when making this change.
+
+Let's start by downloading the file [RU.efi](./CFGunlock/RU.efi)
+
+We format the USB in FAT32 format.
+We copy the RU.efi file in the USB Root.
+We enable the UEFI Shell parameter from the BIOS.
+We attach the USB stick to the PC and start the UEFI Shell by pressing F10.
+
+If everything is correct, we will come to this screen:
+
+![rootshell](./CFGunlock/rootshell.jpg)
+
+We will then have to find our ROOT, which in my case is FS1
+So now we will write "fs1:"
+Then we will write "ls"
+
+We will find ourselves in this situation at this point:
+
+![rootshellRU](./CFGunlock/rootshell_RU.jpg)
+
+Then type RU.efi and this mask will appear.
+
+![RU](./CFGunlock/RU.jpg)
+
+Press ALT + ì to remove the popup on the screen.
+At this point, on the keyboard, press PagDOWN to scroll the list.
+
+We need to get to the "CPUSetup"
+
+And click ENTER to access the section.
+
+![CPUSetupRU](./CFGunlock/CPUSetupRU.jpg)
+
+Now we have to go down to the value "0030 - 0E
+
+![CPUSetupeMODRU](./CFGunlock/valoremod1.jpg)
+
+Now let's change the value 01 to 00
+
+The correct version will be the following:
+
+![CPUSetupeMODOKRU](./CFGunlock/valoremodok.jpg)
+
+Now to save we press CTRL + W
+
+If everything went well, we will have this screen with a red popup
+
+![CPUSetupeMODSAVERU](./CFGunlock/valoremodsave.jpg)
+
+Enjoy
 
 ### SSDT Info
 ![ssdt](./Screenshot/ssdtscreen.png)
