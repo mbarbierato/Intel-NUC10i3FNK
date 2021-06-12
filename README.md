@@ -143,7 +143,7 @@ See [ioreg](./macmini.ioreg) for more clarification
 ## Credits
 
 - [Apple](https://apple.com) for macOS.
-- Intel for this mini pc.
+- [Intel](https://www.intel.it/content/www/it/it/products/details/nuc.html) for this mini pc.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
 - [Dortania](https://github.com/dortania) For great and detailed guides.
 - [Lorys89](https://github.com/Lorys89) For continuos support, patches and sleepless nights.
