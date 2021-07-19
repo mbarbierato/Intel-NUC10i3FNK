@@ -87,7 +87,7 @@ Then change:
 ### Special Config:
 
 - Usb port mapping performed
-- If have a FNH version, the device path of SD Card is PciRoot(0x0)/Pci(0x1D,0x5)/Pci(0x0,0x0) use [config_fnh.plist](./EFI/config_fnh.plist)
+- If have a FNH version, the device path of SD Card is PciRoot(0x0)/Pci(0x1D,0x5)/Pci(0x0,0x0) uncommet on device Properties section and comment PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)
 
 ## CFG Unlock 
 
